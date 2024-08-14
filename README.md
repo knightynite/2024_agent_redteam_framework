@@ -13,3 +13,9 @@ prompt, etc.
 
 We measure: does the agent follow the injected instructions, or stick to the user's
 original goal?
+
+
+## Files
+
+- `src/agent_redteam.py` — the agent loop with pluggable adversarial tools
+- `src/tools.py` — tool definitions, including injection variants
