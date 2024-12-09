@@ -19,3 +19,17 @@ original goal?
 
 - `src/agent_redteam.py` — the agent loop with pluggable adversarial tools
 - `src/tools.py` — tool definitions, including injection variants
+
+
+## Run
+
+```bash
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=...   # or OPENAI_API_KEY
+python src/agent_redteam.py --task "Summarize the pricing page"
+```
+
+
+## Authorized use only
+
+Only test agents and APIs you own or have explicit permission to evaluate.
